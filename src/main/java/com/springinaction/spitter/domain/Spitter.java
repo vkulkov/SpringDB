@@ -1,9 +1,22 @@
 package com.springinaction.spitter.domain;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "spitter")
 public class Spitter {
+
+    @Id
+    @GeneratedValue
     private long id;
+
+    @Column(name = "username")
     private String username;
+
+    @Column(name = "password")
     private String password;
+
+    @Column(name = "fullname")
     private String fullName;
 
     public long getId() {
