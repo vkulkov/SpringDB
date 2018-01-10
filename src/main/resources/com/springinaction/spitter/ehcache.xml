@@ -1,0 +1,12 @@
+<ehcache>
+    <defaultCache
+        maxElementsInMemory="500"
+        overFlowToDisk="false"
+        memoryStoreEvictionPolicy="LFU"
+        eternal="true" />
+    <cache name="spitterCache"
+           maxElementsInMemory="500"
+           overFlowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"
+           eternal="true" />
+</ehcache>
