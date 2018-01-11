@@ -1,7 +1,7 @@
 package com.springinaction.spitter.persistence;
 
 import com.springinaction.spitter.domain.Spitter;
-import com.springinaction.spitter.exception.SpitterNotFoundException;
+import com.springinaction.spitter.util.exception.SpitterNotFoundException;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
